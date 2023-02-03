@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test1
+  description: test1-app
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: github/example-org/artist-website
+    sonarqube.org/project-key: Amazonite::amz-mon
+  tags:
+    - java
+  links:
+    - url: https://eos2git.cec.lab.emc.com/ran-hao/poxio
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: staging
+  owner: team-a
+  system: public-websites
