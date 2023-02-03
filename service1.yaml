@@ -9,7 +9,7 @@ metadata:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
     sonarqube.org/project-key: Amazonite::amz-mon
-    jenkins.io/github-folder: ikeaforever/backstagetest
+    jenkins.io/github-folder: anacortes-ondemand-pipeline-anacortes-build
     jenkins.io/job-full-name: anacortes-ondemand-pipeline-anacortes-build
   tags:
     - java
