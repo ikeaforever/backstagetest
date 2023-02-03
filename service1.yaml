@@ -9,6 +9,7 @@ metadata:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
     sonarqube.org/project-key: Amazonite::amz-mon
+    jenkins.io/github-folder: 'pipeline-int-vxrail-Schwannden-s13c2-pipton-internalVC'
   tags:
     - java
   links:
